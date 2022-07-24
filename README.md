@@ -1,3 +1,4 @@
 # Idea-Pita
-Coder house  boostrap proyect.
+Desafio Coder house "MAQUETANDO CON BOOTSTRAP".
 
+https://leonardopita.github.io/Idea-Pita/
