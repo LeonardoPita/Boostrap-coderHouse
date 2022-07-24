@@ -5,7 +5,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Roboto, sans-serif;
 }
 a {
@@ -48,6 +48,14 @@ a {
     -ms-transform: translatey(-15px);
     -o-transform: translatey(-15px);
 }
+.navbar-toggler:hover{
+    transform: translatey(-5px);
+    -webkit-transform: translatey(-5px);
+    -moz-transform: translatey(-5px);
+    -ms-transform: translatey(-5px);
+    -o-transform: translatey(-5px);
+    transition: all 0.3s ease-in-out;
+}
 /************************GENERAL STYLES****************************/
 h1 {
     font-size: 50px;
@@ -80,13 +88,25 @@ img {
     color: white;
 }
 .title {
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 100;
 }
 
 .title span {
     font-size: 45px;
 }
-
+.last {
+    padding-bottom: 20px;
+}
+.first {
+    padding-top: 20px;
+}
+.spacerTop {
+    padding-top: 100px;
+}
+.spacerBottom {
+    padding-bottom: 100px;
+}
 /************************NAVIGATION****************************/
 .active {
     color: #ffcd1c;
@@ -103,6 +123,13 @@ img {
 .navbar-collapse {
     justify-content: end;
 }
+.navbar-toggler{
+    border: transparent;
+    color: transparent;
+}
+.navbar-toggler-icon {
+    background-image: url(/assets/navButton.png);
+} 
 /************************HOME CONTENT**************************/
 
 
@@ -164,12 +191,6 @@ textarea {
 }
 
 /************************FOOTER**************************/
-.last {
-    padding-bottom: 20px;
-}
-.first {
-    padding-top: 20px;
-}
 footer img {
     width: 40px;
     height: 40px;
