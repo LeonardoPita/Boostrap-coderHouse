@@ -50,42 +50,35 @@
     </header>
     <!---------------------CONTACTO CONTENT------------------------->
     <section class="background1">
-        <div class="wraper">
-            <div class="grid gridCenter">
-                <div class="content contactImage">
-                    <img src="../assets/contact me bw.png" alt="">
-                </div>
-                <div class="content data grid1">
+        <div class="container py-5">
+            <div class="row text-center pt-5">
+                <img class="col-lg-6" src="../assets/contact me bw.png" alt="">
+                <div class="col-lg-6 pt-5">
                     <P class="fontColor1">Contacto</P>
-                    <P class="fontColor2">Teléfono:</P>
-                    <P class="fontColor2">11 1111 1111</P>
-                    <P class="fontColor2">Mail:</P>
-                    <P class="fontColor2">lpita.roz@gmail.com</P>
+                    <P class="fontColor2">Teléfono: 11 1111 1111</P>
+                    <P class="fontColor2">Mail: Lpita.roz@gmail.com</P>S
                 </div>
             </div>
-            <div class="content last form">
-                <form id="contactForm" class="fontColor2" action="">
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <form id="contactForm" class="fontColor2 col-12 col-sm-10 col-lg-8 mx-auto" action="">
                     <div>
                         <label id="name-label">Nombre:</label>
                         <input id="name" type="text" placeholder="Tu Nombre" required>
                     </div>
                     <div>
                         <label id="email-label">Email:</label>
-                        <input id="email" type="email" required placeholder="Yours@email.com">
+                        <input id="email" type="email" required placeholder="Nombre@email.com">
                     </div>
                     <div>
                         <label id="number-label">Teléfono:</label>
                         <input id="number" type="number" min="8" max="12" required placeholder="11-1111-1111">
                     </div>
-
                     <label>Mensaje</label>
                     <textarea name="TellUs" rows="10" cols="90"></textarea>
-                    <div class="submit">
-                        <button type="submit">Enviar</button>
-                    </div>
-                    <div class="reset">
-                        <button type="reset">Borrar</button>
-                    </div>
+                    <button class="submit" type="submit">Enviar</button>
+                    <button class="reset" type="reset">Borrar</button>
                 </form>
             </div>
         </div>

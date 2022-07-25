@@ -8,9 +8,11 @@
     font-size: 20px;
     font-family: Roboto, sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 /************************LINK ANIMATIONS****************************/
 .animateLink {
     transition: all 0.5s ease-in-out;
@@ -19,11 +21,13 @@ a {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 .animateLink:hover {
     border-bottom: 1px solid #ffcd1c;
     padding: 0, 2px;
     color: #ffcd1c;
 }
+
 .animateLogo {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -31,9 +35,11 @@ a {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
+
 .animateLogo:hover {
     font-size: 40px;
 }
+
 .animateIcon {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -41,6 +47,7 @@ a {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
+
 .animateIcon:hover {
     transform: translatey(-15px);
     -webkit-transform: translatey(-15px);
@@ -48,7 +55,8 @@ a {
     -ms-transform: translatey(-15px);
     -o-transform: translatey(-15px);
 }
-.navbar-toggler:hover{
+
+.navbar-toggler:hover {
     transform: translatey(-5px);
     -webkit-transform: translatey(-5px);
     -moz-transform: translatey(-5px);
@@ -56,6 +64,7 @@ a {
     -o-transform: translatey(-5px);
     transition: all 0.3s ease-in-out;
 }
+
 /************************GENERAL STYLES****************************/
 h1 {
     font-size: 50px;
@@ -66,7 +75,6 @@ h2 {
     font-size: 30px;
     font-weight: 100;
 }
-
 
 img {
     width: 100%;
@@ -87,6 +95,7 @@ img {
 .fontColor2 {
     color: white;
 }
+
 .title {
     font-size: 40px;
     font-weight: 100;
@@ -95,49 +104,50 @@ img {
 .title span {
     font-size: 45px;
 }
+
 .last {
     padding-bottom: 20px;
 }
+
 .first {
     padding-top: 20px;
-}
-.spacerTop {
-    padding-top: 100px;
-}
-.spacerBottom {
-    padding-bottom: 100px;
 }
 /************************NAVIGATION****************************/
 .active {
     color: #ffcd1c;
 }
-.nav-link{
+
+.nav-link {
     color: white;
 }
+
 .current {
     color: #ffcd1c;
 }
+
 .current:hover {
     color: #ffcd1c;
 }
+
 .navbar-collapse {
     justify-content: end;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: transparent;
     color: transparent;
 }
+
 .navbar-toggler-icon {
-    background-image: url(/assets/navButton.png);
-} 
+    background-image: url(../assets/navButton.png);
+}
+
 /************************HOME CONTENT**************************/
 
 /************************HABILIDADES CONTENT**************************/
 .habilidades img {
-    display: block;
-    width: 100%;
-    max-width: 250px;
-    margin: 30px auto;
+    margin: 0 auto;
+    max-width: 350px;
 }
 
 /************************PROYECTOS CONTENT**************************/
@@ -150,43 +160,23 @@ img {
 
 /************************CONTACTO CONTENT**************************/
 .contactImage {
-    width: 500px;
     max-width: 100%;
-    margin: 0 auto;
 }
-
-.data {
-    text-align: center;
-}
-
-.data p {
-    padding-bottom: 10px;
-    font-size: 25px;
-}
-
-.form {
-    display: flex;
-    justify-content: center;
-}
-
 #contactForm label,
 input,
 textarea {
     display: block;
     padding-bottom: 5px;
+    width: 95%;
+    margin-bottom: 10px;
 }
 
 .submit,
 .reset {
     display: inline;
-}
-
-#contactForm label,
-input,
-textarea {
-    width: 95%;
-    max-width: 500px;
-    margin-bottom: 10px;
+    width: 80px;
+    height: 40px;
+    margin: 20px 30px 30px 0;
 }
 
 /************************FOOTER**************************/
