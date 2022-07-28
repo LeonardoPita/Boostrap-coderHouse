@@ -1,4 +1,4 @@
 # Idea-Pita
-Desafio Coder house "MAQUETANDO CON BOOTSTRAP".
+Desafio Coder house "SEGUNDA ENTREGA DEL PROYECTO FINAL".
 
 https://leonardopita.github.io/Idea-Pita/
